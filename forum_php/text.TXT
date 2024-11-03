@@ -1,0 +1,12 @@
+Groupe: Anas & Ilias Bounabat
+
+admin email: admin@gmail.com    mdp:admin
+user  email:user@gmail.com      mdp:user123
+
+Sur le site, il sera possible de créer un utilisateur qui ne sera pas administrateur. Pour 
+le promouvoir au rôle d'administrateur, il faudra accéder à la base de données, dans la colonne users, et mettre is_admin à 1. 
+ Le site permettra également de créer, modifier et supprimer des articles sur les voitures Brabus.
+
+Nous aurons deux pages : une pour les utilisateurs et une pour les administrateurs. 
+Elles auront le même affichage, mais la différence réside dans le fait que sur la page 
+admin, un bouton supplémentaire sera présent pour créer un post.

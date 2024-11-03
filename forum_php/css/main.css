@@ -1,0 +1,187 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    color: white;
+}
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #4bedc2;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Cosi Azure";
+    font-size: 84px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 24px 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.button:hover a {
+    background: white;
+    color: #161616;
+    transition: 0.3s;
+}
+/* Main content styling */
+
+main {
+    padding: 2rem;
+
+}
+.comment-container {
+  
+    padding: 2rem;
+}
+
+
+nav {
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    padding: 8px 24px;
+    font-size: 1.2em;
+    position: sticky;
+    top: 0;
+  }
+  
+  .home {
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  li {
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.8s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    border-color: white;
+  }
+  a.home{
+    margin-right: 1150px;
+    font-family: "futura-pt", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: larger;
+  }
+
+  h3 {
+    padding: 17px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+
+    animation: reveal 1s linear; 
+    animation-timeline: view(); 
+    animation-range-start: 0%; 
+    animation-range-end: 50%;
+}
+p{
+  padding: 17px;
+  text-align: start;
+  font-weight: 00;
+font-style: normal;
+font-size: xx-larger;
+animation: reveal 1.2s linear; 
+animation-timeline: view(); 
+animation-range-start: 0%; 
+animation-range-end: 50%;
+}
+
+div.post-actions{
+  text-align: center;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+  h4{
+    padding: 17px;
+    text-align: start;
+    font-weight: 600;
+font-style: normal;
+font-size: xx-larger;
+
+  }
+ 
+  .background-video {
+    background-image: url('https://www.brabus.com/_Resources/Persistent/7/a/f/c/7afceb8e751fe1494b78072b662bf5611ea6b7ce/BRABUS%20800%20Superblack_WEBTEASER.mp4'); /* Mettez ici l'URL de votre image */
+    background-size: cover;
+
+    height: auto;
+    width: 2100px;
+}
+.rose {
+  height: 100vh; 
+  width: 100vw;  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin-right: 50px;
+}
+.delete:hover {
+color: red; 
+}
+
+.edit:hover {
+ color: rgb(26, 190, 26); 
+}
