@@ -1,4 +1,4 @@
-/*Ce code PHP gère l'inscription d'un nouvel utilisateur. Il commence par inclure la config de la base de données et initialise une variable d'erreur. Il récupère les informations de l'utilisateur (email, mot de passe, pseudo) et les filtre. Il vérifie si l'email est valide et déjà utilisé. Si tout est bon, il hache le mot de passe et insère l'utilisateur dans la base. Si l'inscription réussit, l'utilisateur est redirigé vers la page de connexion, sinon un message d'erreur s'affiche.*/
+//Ce code PHP gère l'inscription d'un nouvel utilisateur. Il commence par inclure la config de la base de données et initialise une variable d'erreur. Il récupère les informations de l'utilisateur (email, mot de passe, pseudo) et les filtre. Il vérifie si l'email est valide et déjà utilisé. Si tout est bon, il hache le mot de passe et insère l'utilisateur dans la base. Si l'inscription réussit, l'utilisateur est redirigé vers la page de connexion, sinon un message d'erreur s'affiche.
 <?php
 include 'config.php';
 
